@@ -3,7 +3,7 @@
     padding: 0;
 }
 .cabecalho{
-    background-color:rgb(104, 24, 24);
+    background-color:rgb(209, 59, 164);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ h1
     text-decoration: none;
 }
 body{
-    background-color: brown;
+    background-color: rgb(128, 20, 61);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -37,7 +37,7 @@ main{
 .cartao-mentira, .cartao-verso{
     position:absolute;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15 );
+    box-shadow: 0 6px 12px rgba(172, 84, 160, 0.15);
     backface-visibility: hidden;
 }
 .cartao-verso{
