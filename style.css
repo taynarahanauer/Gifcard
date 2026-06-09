@@ -32,7 +32,7 @@ main{
 .cartao-interno{
     position:relative;
     transition: transform 0.8s;
-    transform: preserve-3d;
+    transform-style: preserve-3d;
 }
 .cartao-mentira, .cartao-verso{
     position:absolute;
@@ -44,7 +44,7 @@ main{
     transform: rotateY(180deg);
 }
 .cartao:hover .cartao-interno{
-    transform: rotateY(180dog);
+    transform: rotateY(180deg);
 }
 section{
     display:flex;
